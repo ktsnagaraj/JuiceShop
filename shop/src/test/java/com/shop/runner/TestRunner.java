@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome = true,
 		plugin = {"pretty", "html:target/cucumber-reports/report.html", 
 				"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
-		tags = "@sanity"
+		tags = "@SubmitReview"
 		 )
 
 public class TestRunner {

@@ -21,7 +21,7 @@ public class HomePage {
 	public static WebElement logout;	
 	@FindBy(xpath="//button[@class='mat-focus-indicator close-dialog mat-raised-button mat-button-base mat-primary ng-star-inserted']")
 	public static WebElement popUpDismiss;
-	@FindBy(xpath="//div[@class='mat-tooltip-trigger product']")
+	@FindBy(xpath="//div[@class='mat-tooltip-trigger product']") 
 	public static WebElement appleJuiceDescription;
 	@FindBy(id="mat-expansion-panel-header-4")
 	public static WebElement appleJuiceReview;
@@ -43,4 +43,10 @@ public class HomePage {
 	public static WebElement continueAfterDeliverySelection;
 	@FindBy(xpath="//span[contains(text(),'left')]/ancestor::mat-card")
 	public static List<WebElement> onlyFewLeftJuices;
+	@FindBy(xpath="//textarea[@aria-label='Text field to review a product']")
+	public static WebElement reviewComments;
+	@FindBy(id="submitButton")
+	public static WebElement reviewCommentsSubmit;
+	
+	
 }

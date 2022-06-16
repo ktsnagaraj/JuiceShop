@@ -24,6 +24,7 @@ public class SubmitReview {
 	
 	@Given("^launch the Juice shop URL$")
 	public void launch_the_Juice_shop_URL() throws IOException, DocumentException {
+		try {
 		ReadProperties.readProperties();
 		System.setProperty("webdriver.chrome.driver", ReadProperties.driverLocation);
 		driver.manage().window().maximize();
@@ -31,6 +32,10 @@ public class SubmitReview {
 		driver.get(ReadProperties.URL);
 		ScreenShotMaker.screenShot(driver);
 		wait.until(ExpectedConditions.elementToBeClickable(HomePage.popUpDismiss)).click();
+		} catch (Exception e) {
+			driver.quit();
+			e.printStackTrace();
+		} 
 	}
 	@And("^login with valid account details$")
 	public void login_with_valid_account_details() throws IOException, DocumentException, InterruptedException {
@@ -47,19 +52,24 @@ public class SubmitReview {
 	}	
 	@When("^I select the product review$")
 	public void I_select_the_product_review() throws IOException, DocumentException, InterruptedException {
-		System.out.println("Number of Products identified: " + HomePage.onlyFewLeftJuices.size());
+		try {
+		wait.until(ExpectedConditions.elementToBeClickable(HomePage.appleJuiceDescription)).click();
+	} catch (Exception e) {
+		driver.quit();
+		e.printStackTrace();
+	} 
 	}
 	@And("^enter the review comments$")
 	public void enter_the_review_comments() throws IOException, DocumentException, InterruptedException {
-		System.out.println("Number of Products identified: " + HomePage.onlyFewLeftJuices.size());
+		wait.until(ExpectedConditions.elementToBeClickable(HomePage.reviewComments)).sendKeys("Good quality product...!");
 	}
 	@Then("^I submit it successfully$")
 	public void I_submit_it_successfully() throws IOException, DocumentException, InterruptedException {
-		
+		HomePage.reviewCommentsSubmit.click();
+		ScreenShotMaker.screenShot(driver);
+		HomePage.appleJuiceReviewClose.click();
 		HomePage.account.click();
-		ScreenShotMaker.screenShot(driver);
 		HomePage.logout.click();
-		ScreenShotMaker.screenShot(driver);
 		driver.quit();
 	driver.quit();
 	}

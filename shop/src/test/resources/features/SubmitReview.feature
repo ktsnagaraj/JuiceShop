@@ -1,3 +1,4 @@
+@SubmitReview
 Feature: Submit the product review comments
 
   Scenario: Select the prodcut and submit the review comments
