@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/Cucumber/apiguardian-api-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/Cucumber/ci-environment-9.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/Cucumber/cucumber-core-7.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/Cucumber/cucumber-expressions-15.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/Cucumber/cucumber-gherkin-7.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/Cucumber/cucumber-gherkin-messages-7.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/Cucumber/cucumber-java-7.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/Cucumber/cucumber-plugin-7.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/Cucumber/datatable-7.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/Cucumber/docstring-7.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/Cucumber/gherkin-23.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/Cucumber/html-formatter-19.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/Cucumber/messages-18.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/Cucumber/tag-expressions-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/itextpdf-5.4.0.jar/itextpdf-5.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/jar_files (4)/commons-7.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/jar_files (4)/io-7.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/jar_files (4)/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/jar_files (5)/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/jar_files (5)/io-3.0.0-alpha3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/jar_files (6)/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/jar_files (6)/fontbox-3.0.0-alpha3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/jar_files (6)/io-3.0.0-alpha3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dra Nallely Corona/Downloads/jar_files (6)/pdfbox-3.0.0-alpha3.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
