@@ -1,0 +1,2 @@
+# JuiceShop
+JuiceShop Automation scenarios
